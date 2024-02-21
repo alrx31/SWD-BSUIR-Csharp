@@ -149,7 +149,7 @@ class ЛР1
                     {
                         if(current.Data.CompareTo(current.Data)  == 1)
                         {
-                                // смена местами 
+                                // смена местами двух эелементов списка
                         }
                         current = current.Next;
 
