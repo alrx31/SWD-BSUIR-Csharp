@@ -135,7 +135,7 @@ class Program
     }
 }
 
-class Ring<T> where T : IComparable<T>
+class Ring<T> where T: IComparable<T>
 {
     internal class Node
     {

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BSUIR\\КПО\\Лабы 2 сем\\ЛР5\\ЛР1\\ЛР1.csproj",
+      "projectUniqueName": "D:\\BSUIR\\КПО\\SWD-BSUIR-Csharp\\Labs\\ЛР5\\ЛР1\\ЛР1.csproj",
       "projectName": "ЛР1",
-      "projectPath": "D:\\BSUIR\\КПО\\Лабы 2 сем\\ЛР5\\ЛР1\\ЛР1.csproj",
+      "projectPath": "D:\\BSUIR\\КПО\\SWD-BSUIR-Csharp\\Labs\\ЛР5\\ЛР1\\ЛР1.csproj",
       "packagesPath": "C:\\Users\\usova\\.nuget\\packages\\",
-      "outputPath": "D:\\BSUIR\\КПО\\Лабы 2 сем\\ЛР5\\ЛР1\\obj\\",
+      "outputPath": "D:\\BSUIR\\КПО\\SWD-BSUIR-Csharp\\Labs\\ЛР5\\ЛР1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\usova\\AppData\\Roaming\\NuGet\\NuGet.Config",
