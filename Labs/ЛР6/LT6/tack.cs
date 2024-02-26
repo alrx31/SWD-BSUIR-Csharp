@@ -142,30 +142,4 @@ class Program
     
     
 }
-#1#
-
-class Program1
-{
-    public static void Main1(String[] args)
-    {
-        
-    }
-}
-
-class MyClass
-{
-    public delegate void SortDelegate();
-    
-    public SortDelegate Sort;
-
-    public MyClass()
-    {
-        Sort = bubleSort;
-    }
-
-    public void bubleSort()
-    {
-        Console.WriteLine("sorted");
-    } 
-            
-}*/
+*/
