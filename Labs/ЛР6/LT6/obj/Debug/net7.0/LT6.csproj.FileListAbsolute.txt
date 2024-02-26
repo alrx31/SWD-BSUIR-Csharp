@@ -1,0 +1,14 @@
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\bin\Debug\net7.0\LT6.exe
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\bin\Debug\net7.0\LT6.deps.json
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\bin\Debug\net7.0\LT6.runtimeconfig.json
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\bin\Debug\net7.0\LT6.dll
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\bin\Debug\net7.0\LT6.pdb
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\obj\Debug\net7.0\LT6.GeneratedMSBuildEditorConfig.editorconfig
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\obj\Debug\net7.0\LT6.AssemblyInfoInputs.cache
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\obj\Debug\net7.0\LT6.AssemblyInfo.cs
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\obj\Debug\net7.0\LT6.csproj.CoreCompileInputs.cache
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\obj\Debug\net7.0\LT6.dll
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\obj\Debug\net7.0\refint\LT6.dll
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\obj\Debug\net7.0\LT6.pdb
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\obj\Debug\net7.0\LT6.genruntimeconfig.cache
+D:\BSUIR\КПО\SWD-BSUIR-Csharp\Labs\ЛР6\LT6\obj\Debug\net7.0\ref\LT6.dll
