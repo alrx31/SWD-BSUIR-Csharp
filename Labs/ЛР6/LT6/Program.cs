@@ -543,10 +543,8 @@ class Ring<T> where T: IComparable<T>
         return temp;
     }
     
-    public bool Even(T value)
-    {
-        return value.GetHashCode() % 2 == 0;
-    }
+    public bool Even(T value) => value.GetHashCode() % 2 == 0;
+    public bool Odd(T value) => value.GetHashCode() % 2 != 0;
 
 
     // delegates
