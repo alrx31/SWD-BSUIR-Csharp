@@ -48,6 +48,7 @@
         // view
         ringInt.Print();
         ringInt.Filtered(4).Print();
+        ringInt.Filter(ringInt.Even).Print();
 
 
         // find
@@ -526,6 +527,28 @@ class Ring<T> where T: IComparable<T>
         return temp;
     }
     
+    public Ring<T> Filter(Func<T,bool> predicate)
+    {
+        Ring<T> temp = new Ring<T>();
+        Node current = _head;
+        for (int i = 0; i < _size; i++)
+        {
+            if (predicate(current.getData()))
+            {
+                temp.push(current.getData());
+            }
+            
+            current = current.getNext();
+        }
+        return temp;
+    }
+    
+    public bool Even(T value)
+    {
+        return value.GetHashCode() % 2 == 0;
+    }
+
+
     // delegates
     
     
