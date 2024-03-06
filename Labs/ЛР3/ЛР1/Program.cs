@@ -71,10 +71,8 @@ public class Program
             
             public string Name { get; set; }
             public int Size { get; set; }
-            [DisplayName("Class")]
             public ClassMush ClassMush { get; set; }
-
-            public Mushroom() { }
+            
             public Mushroom(string name, int size, ClassMush classMush) => (Name, Size, ClassMush) = (name, size, classMush);
             public void Print() => Console.WriteLine($"Name: {Name}, Size: {Size}, Class: {ClassMush};");
         }
@@ -84,7 +82,6 @@ public class Program
             public Mushroom[] Mushrooms { get; set; }
             public MushroomContainer() { }
             public MushroomContainer(int size) => Mushrooms = new Mushroom[size];
-            public MushroomContainer(Mushroom[] mushrooms) => Mushrooms = mushrooms;
 
 
             public void AddMushroom(Mushroom obj)
@@ -120,6 +117,7 @@ public class Program
                     if (Mushrooms[i].Name == name)
                     {
                         deleteByIndex(i);
+                        return;
                     }
                 }
             }
@@ -129,13 +127,23 @@ public class Program
                 Mushrooms = new Mushroom[size];
                 for (int i = 0; i < size; i++)
                 {
-                    Console.WriteLine("Enter name: ");
-                    string name = Console.ReadLine();
-                    Console.WriteLine("Enter size: ");
-                    int size1 = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Enter class: ");
-                    ClassMush classMush = (ClassMush)Enum.Parse(typeof(ClassMush), Console.ReadLine());
-                    Mushrooms[i] = new Mushroom(name, size1, classMush);
+                    try
+                    {
+                        Console.WriteLine("Enter name: ");
+                        string name = Console.ReadLine();
+                        Console.WriteLine("Enter size: ");
+                        int size1 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Enter class: ");
+
+                        ClassMush classMush = (ClassMush)Enum.Parse(typeof(ClassMush), Console.ReadLine());
+                        Mushrooms[i] = new Mushroom(name, size1, classMush);
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("invalid data");
+                        i--;
+                    }
+                    
                 }
             }
         }
