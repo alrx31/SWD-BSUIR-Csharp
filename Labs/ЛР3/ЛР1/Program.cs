@@ -92,22 +92,36 @@ public class Program
             public void Print()
             {
                 if(Mushrooms.Length != 0)
-                {
+                {/*
                     foreach (var item in Mushrooms)
                     {
                         item.Print();
+                    }*/
+
+                    for (int i = 0; i < Mushrooms.Length; i++)
+                    {
+                        Mushrooms[i].Print();
                     }
                 }
             }
 
             public void deleteByIndex(int index)
             {
+                if (index < 0 || index >= Mushrooms.Length)
+                {
+                    Console.WriteLine("invalid index");
+                    return;
+                }
                 for (int i = index; i < Mushrooms.Length - 1; i++)
                 {
                     Mushrooms[i] = Mushrooms[i + 1];
                 }
-                Mushrooms[Mushrooms.Length - 1] = null;
                 
+                
+                int newSize = Mushrooms.Length - 1;
+                Mushroom[] Temp = Mushrooms;
+                Array.Resize(ref Temp, newSize);
+                Mushrooms = Temp;
             }
 
             public void DeleteByName(string name)
