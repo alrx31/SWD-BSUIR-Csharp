@@ -1,1 +1,5 @@
-{"name":"new Alex","age":19,"weight":75.5}
+{
+    "name": "new Alex",
+    "age": 19,
+    "weight": 75.5
+}
