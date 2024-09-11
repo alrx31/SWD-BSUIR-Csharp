@@ -1,0 +1,98 @@
+﻿<Window x:Class="LT13.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        Title="Tasks" Height="600" Width="800"
+        KeyDown="Window_KeyDown">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Task 1">
+                <ListBox Name="listBoxTask1" SelectionMode="Single">
+                    <ListBoxItem Content="Item 1"/>
+                    <ListBoxItem Content="Item 2"/>
+                    <ListBoxItem Content="Item 3"/>
+                    <ListBoxItem Content="Item 4"/>
+                </ListBox>
+            </TabItem>
+
+            <TabItem Header="Task 2">
+                <ListBox Name="listBoxTask2" SelectionChanged="listBoxTask2_SelectionChanged">
+                    <ListBoxItem Content="Item 1"/>
+                    <ListBoxItem Content="Item 2"/>
+                    <ListBoxItem Content="Item 3"/>
+                    <ListBoxItem Content="Item 4"/>
+                </ListBox>
+            </TabItem>
+
+            <TabItem Header="Task 3">
+                <ListBox Name="listBoxTask3" SelectionChanged="listBoxTask3_SelectionChanged">
+                    <ListBoxItem Content="Item 1"/>
+                    <ListBoxItem Content="Item 2"/>
+                    <ListBoxItem Content="Item 3"/>
+                    <ListBoxItem Content="Item 4"/>
+                </ListBox>
+            </TabItem>
+
+            <TabItem Header="Task 4">
+                <ListBox Name="listBoxTask4"   SelectionChanged="listBoxTask4_SelectionChanged">
+                    <ListBoxItem MouseRightButtonUp="listBoxTask4_MouseRightButtonUp" Content="Item 1"/>
+                    <ListBoxItem MouseRightButtonUp="listBoxTask4_MouseRightButtonUp" Content="Item 2"/>
+                    <ListBoxItem MouseRightButtonUp="listBoxTask4_MouseRightButtonUp" Content="Item 3"/>
+                    <ListBoxItem MouseRightButtonUp="listBoxTask4_MouseRightButtonUp"  Content="Item 4"/>
+                </ListBox>
+            </TabItem>
+
+            <TabItem Header="Task 5">
+                <Grid MouseRightButtonUp="GridTask5_MouseRightButtonUp">
+                    <TextBlock>adsasd</TextBlock>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Task 6">
+                <Grid Name="GridTask6" MouseLeftButtonUp="GridTask6_MouseLeftButtonUp">
+                    <TextBlock>asd</TextBlock>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Task 7">
+                <Grid Name="GridTask7" MouseRightButtonUp="GridTask7_MouseRightButtonUp">
+                    <TextBlock>asd</TextBlock>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Task 8">
+                <Grid>
+                    <TextBox Name="textBoxTask8" Width="200" Height="30" VerticalAlignment="Top"/>
+                    <TextBlock Name="confirmationTextTask8" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Task 9">
+                <TextBlock Text="Нажмите Esc для выхода из приложения" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </TabItem>
+
+            <TabItem Header="Task 10">
+                <TextBlock Text="Нажмите Ctrl+S для сохранения файла" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </TabItem>
+
+            <TabItem Header="Task 11">
+                <TextBlock Text="Нажмите Ctrl+O для открытия файла" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </TabItem>
+
+            <TabItem Header="Task 12">
+                <TextBlock Text="Нажмите Ctrl+C для копирования и Ctrl+V для вставки" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </TabItem>
+
+            <TabItem Header="Task 13">
+                <TextBlock Text="Нажмите Ctrl+P для печати документа" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </TabItem>
+
+            <TabItem Header="Task 14">
+                <TextBlock Text="Нажмите Ctrl+Shift+C для выбора цвета формы" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </TabItem>
+
+            <TabItem Header="Task 15">
+                <TextBlock Text="Нажмите Ctrl+Shift+F для выбора шрифта текста" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
